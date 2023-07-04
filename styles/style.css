@@ -21,10 +21,15 @@ h1 {
 
 .list {
     background-color: rgb(103, 180, 238);
-    width: 300px;
     margin: 10px auto;
     padding: 10px;
     text-align: center;
+    display: flex;
+}
+
+.list div {
+    width: 650px;
+    flex: 1 1 auto;
 }
 
 .frappe {
